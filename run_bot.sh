@@ -1,0 +1,1 @@
+bash -lc  'poetry run python ./app/run.py &' >> ./logs/bot.log 2>&1

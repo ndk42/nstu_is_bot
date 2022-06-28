@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "nstu_student_bot"
+version = "0.1.0"
+description = ""
+authors = ["btrd"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.1.2"
+sqlalchemy = "^1.3.19"
+transliterate = "^1.10.2"
+rapidfuzz = "^0.12.0"
+python-telegram-bot = "^13.0"
+requests = "^2.24.0"
+psycopg2 = "^2.8.6"
+psycopg2-binary = "^2.8.6"
+ujson = "^3.2.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.3"
+rope = "^0.18.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
